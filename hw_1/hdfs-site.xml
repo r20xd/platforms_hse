@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<configuration>
+    <property>
+        <name>dfs.replication</name>
+        <value>3</value>
+    </property>
+
+    <property>
+        <name>dfs.namenode.name.dir</name>
+        <value>file:///home/team/hadoop-data/nn</value>
+    </property>
+
+    <property>
+        <name>dfs.datanode.data.dir</name>
+        <value>file:///home/team/hadoop-data/dn</value>
+    </property>
+
+    <property>
+        <name>dfs.namenode.checkpoint.dir</name>
+        <value>file:///home/team/hadoop-data/snn</value>
+    </property>
+
+    <property>
+        <name>dfs.namenode.checkpoint.edits.dir</name>
+        <value>file:///home/team/hadoop-data/snn-edits</value>
+    </property>
+
+    <property>
+        <name>dfs.namenode.secondary.http-address</name>
+        <value>team-13-en:9868</value>
+    </property>
+</configuration>
